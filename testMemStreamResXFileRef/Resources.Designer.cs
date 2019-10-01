@@ -68,5 +68,14 @@ namespace testMemStreamResXFileRef {
                 return ResourceManager.GetStream("test", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream test2_0 {
+            get {
+                return ResourceManager.GetStream("test2.0", resourceCulture);
+            }
+        }
     }
 }
